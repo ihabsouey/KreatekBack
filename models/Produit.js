@@ -20,7 +20,7 @@ const ProduitSchema = new Schema({
     },
 
 
-});
+},{versionKey: false});
 
 const Produit = mongoose.model('produit', ProduitSchema);
 module.exports = Produit;
