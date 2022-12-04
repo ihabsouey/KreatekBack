@@ -7,8 +7,7 @@ const CommandeSchema = new Schema({
         ref: 'client'
     },
     produits: [{
-        type: Schema.Types.ObjectId,
-        ref: 'produit'
+        type: Array
     }],
     date: {
         type: Date,
